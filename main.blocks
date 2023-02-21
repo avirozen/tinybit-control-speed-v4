@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="=,z:K$.n`{#JjA`wQ~u-" x="-833" y="-15"></block><block type="device_forever" id="9Ym$LXP+S=4z#3p2~^z2" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="@LKZT?ziBlWqV/{x=bJm"><field name="LEDS">`
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . #
+        `</field><next><block type="Tinybit_CarCtrlSpeed2" id="E?_2M:n.$K1O!Y!z:IiM"><field name="index">Tinybit.CarState.Car_Run</field><value name="speed1"><shadow type="math_number_minmax" id="/[gMH$+QgaKsooP!fi5A"><mutation min="0" max="255" label="Speed1" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><value name="speed2"><shadow type="math_number_minmax" id="Qc+5(c]=^;o:$4g,)AT5"><mutation min="0" max="255" label="Speed2" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="device_pause" id="@q*UQcf,]yO-[eUDf-2*"><value name="pause"><shadow type="timePicker" id="0%DeQ3s*9FwftI$W9:=]"><field name="ms">400</field></shadow></value><next><block type="device_show_leds" id="wE})(ZE^jkM.o#8LPy(;"><field name="LEDS">`
+        # . . . . 
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . #
+        `</field><next><block type="Tinybit_CarCtrlSpeed2" id="b4sJ-g@8UsUaEAd^IM/V"><field name="index">Tinybit.CarState.Car_Run</field><value name="speed1"><shadow type="math_number_minmax" id="8[H$2#Dp{G^|tTHovh)9"><mutation min="0" max="255" label="Speed1" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><value name="speed2"><shadow type="math_number_minmax" id="(pcH9tQY8u?6k6+as+TU"><mutation min="0" max="255" label="Speed2" precision="0"></mutation><field name="SLIDER">200</field></shadow></value><next><block type="device_pause" id="EKspw8._6H[|q!dmm+bl"><value name="pause"><shadow type="timePicker" id="?0~(ne5-)Dyx`-HP(++Q"><field name="ms">400</field></shadow></value><next><block type="device_show_leds" id="QDY+*f]+^xH#!-pV*o:U"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        . . . . # 
+        . . . . # 
+        . . . . #
+        `</field><next><block type="Tinybit_CarCtrlSpeed2" id="3jC0Ho39;bV7R3qiTXK?"><field name="index">Tinybit.CarState.Car_Run</field><value name="speed1"><shadow type="math_number_minmax" id="hEe54[xE)A?h;@/%3)26"><mutation min="0" max="255" label="Speed1" precision="0"></mutation><field name="SLIDER">100</field></shadow></value><value name="speed2"><shadow type="math_number_minmax" id="gLkPi!w3Fz5u6C6o2VIy"><mutation min="0" max="255" label="Speed2" precision="0"></mutation><field name="SLIDER">150</field></shadow></value><next><block type="device_pause" id="4reiF-bEvx;.0?Lyeef["><value name="pause"><shadow type="timePicker" id="1Od10*j9@5b3@?Bpi^DC"><field name="ms">400</field></shadow></value><next><block type="device_show_leds" id="P7+#zR]wu-IJx.zue4u2"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        . . . . # 
+        . . . . #
+        `</field><next><block type="Tinybit_CarCtrlSpeed2" id="6cd[Tj,)m~2=5.8az6-j"><field name="index">Tinybit.CarState.Car_Run</field><value name="speed1"><shadow type="math_number_minmax" id="144U(W_m5ae]u_eE@R;c"><mutation min="0" max="255" label="Speed1" precision="0"></mutation><field name="SLIDER">150</field></shadow></value><value name="speed2"><shadow type="math_number_minmax" id="AgaUh_cnrH@[/ILc`Eej"><mutation min="0" max="255" label="Speed2" precision="0"></mutation><field name="SLIDER">100</field></shadow></value><next><block type="device_pause" id="HTnuU/7a%h5E8bOz-.LT"><value name="pause"><shadow type="timePicker" id="c1@j?nm3=A9vRyN=lxcG"><field name="ms">400</field></shadow></value><next><block type="device_show_leds" id="gj~e9RJjR+:lf,9D3)s+"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        . . . . #
+        `</field><next><block type="Tinybit_CarCtrlSpeed2" id="0{ph+[G(`06`!{t{xMU{"><field name="index">Tinybit.CarState.Car_Run</field><value name="speed1"><shadow type="math_number_minmax" id="8#-}O~WT,B0scxBFHZy["><mutation min="0" max="255" label="Speed1" precision="0"></mutation><field name="SLIDER">200</field></shadow></value><value name="speed2"><shadow type="math_number_minmax" id="KY0K;V.-hPS~Lzm@4X:R"><mutation min="0" max="255" label="Speed2" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><next><block type="device_pause" id="t}7E7z3vvzV/B@lJ)no{"><value name="pause"><shadow type="timePicker" id="j@PB}[I%=N8G`rxzm{,p"><field name="ms">400</field></shadow></value><next><block type="device_show_leds" id="aoK-fOYqDyhzWw=v.P%H"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . .
+        `</field><next><block type="Tinybit_CarCtrlSpeed2" id="BW`qD6kl8(`%tB/R}?E#"><field name="index">Tinybit.CarState.Car_Run</field><value name="speed1"><shadow type="math_number_minmax" id="6)qnyx1BqmPWYj3^0PqD"><mutation min="0" max="255" label="Speed1" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="speed2"><shadow type="math_number_minmax" id="3t36:`+UPa}vcm2O3{FO"><mutation min="0" max="255" label="Speed2" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="Sl-CH;!!yDm7T0N(Y%:@"><value name="pause"><shadow type="timePicker" id="c+*[EFe,]j@W_U+I@I?/"><field name="ms">400</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
