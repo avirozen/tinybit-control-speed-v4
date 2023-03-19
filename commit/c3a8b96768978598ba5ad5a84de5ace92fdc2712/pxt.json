@@ -1,0 +1,25 @@
+{
+    "name": "tinybit-control-speed-v4-commit-c3a8b96768978598ba5ad5a84de5ace92fdc2712",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "tinybit-control-speed-v4": "github:avirozen/tinybit-control-speed-v4"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
